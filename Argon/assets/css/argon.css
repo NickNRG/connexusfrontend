@@ -16981,8 +16981,7 @@ textarea[resize='horizontal']
 {
     .section-hero
     {
-        height: 100vh;
-        min-height: 500px;
+        height: auto;
     }
 }
 
