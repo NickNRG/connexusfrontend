@@ -18514,3 +18514,19 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     right: 10px;
     left: auto;
 }
+
+.width {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.width:before {
+    content: '';
+    display: block;
+}
+.ratio16-9:before {padding-top: 56.25%;}
+.contenido {    
+   position: absolute;
+   top: 0; left: 0; bottom: 0; right: 0;
+}
+
