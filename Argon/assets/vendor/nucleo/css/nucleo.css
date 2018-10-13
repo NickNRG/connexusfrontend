@@ -257,6 +257,7 @@ License - nucleoapp.com/license/
 }
 
 .ni-building::before {
+    color: #fb6340;
     content: "\ea18";
 }
 
