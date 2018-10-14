@@ -9,7 +9,7 @@
 }
 
 .cardcontainer {
-  position: relative;
+  position: absolute;
   top: 0%;
   width: 100%;
   height: 100%;
@@ -21,7 +21,7 @@
 }
 
 #cardc0 {
-  position: relative;
+  position: absolute;
   top: 0%;
   width: 100%;
   height: 100%;
@@ -52,7 +52,7 @@
 }
 
 .cardimage {
-  position: relative;
+  position: absolute;
   top: 0%;
   left: 0%;
   width: 100%;
@@ -68,6 +68,19 @@
   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
 }
 
+.cardsun {
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  left: 0%;
+  width: 100%;
+}
+
+.cardsun1 {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 10px #fff;
+}
 
 .cardst4 {
   fill: #f8c56f;
@@ -129,7 +142,7 @@
 }
 
 .cardstory {
-  position: relative;
+  position: absolute;
   top: 45%;
   left: 0%;
   height: 55%;
@@ -147,13 +160,12 @@
 }
 
 .cardinfo {
-  position: relative;
+  position: absolute;
   top: 10%;
 }
 
-
 .cardpage {
-  position: relative;
+  position: absolute;
   top: 80%;
   width: 100%;
   left: 0%;
