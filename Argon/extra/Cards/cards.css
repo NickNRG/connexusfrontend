@@ -31,7 +31,7 @@
 }
 
 #cardc1 {
-  background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+  background: linear-gradient(to bottom, #e0009c 30%, #ff74e6 100%);
   box-shadow: 0px 20px 100px #555;
   left: 100%;
   z-index: 0;
@@ -61,7 +61,7 @@
 }
 
 #cardi1 {
-  background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+  background: linear-gradient(to bottom, #e0009c 30%, #ff74e6 100%);
 }
 
 #cardi2 {
@@ -152,7 +152,7 @@
 }
 
 #cards1 {
-  background: linear-gradient(to top, #5b62a2 0%, #7b88d1 100%);
+  background: linear-gradient(to top, #e0009c 0%, #ff74e6 100%);
 }
 
 #cards2 {
