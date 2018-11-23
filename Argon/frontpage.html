@@ -25,10 +25,47 @@
 
 <body>    
 
+              <style>
+               .animated {
+                  -webkit-animation-duration: 5s;
+                  animation-duration: 5s;
+                  -webkit-animation-fill-mode: both;
+                  animation-fill-mode: both;
+               }
+               
+               @-webkit-keyframes fadeInDown {
+                  0% {
+                     opacity: 0;
+                     -webkit-transform: translateY(-20px);
+                  }
+                  100% {
+                     opacity: 1;
+                     -webkit-transform: translateY(0);
+                  }
+               }
+               
+               @keyframes fadeInDown {
+                  0% {
+                     opacity: 0;
+                     transform: translateY(-20px);
+                  }
+                  100% {
+                     opacity: 1;
+                     transform: translateY(0);
+                  }
+               }
+               
+               .fadeInDown {
+                  -webkit-animation-name: fadeInDown;
+                  animation-name: fadeInDown;
+               }
+            </style>
+
+
   <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light animated fadeInDown">
       <div class="container">
-        <a class="navbar-brand mr-lg-5" href="./index.html">
+        <a class="navbar-brand mr-lg-5" href="#">
           <img src="./assets/img/brand/white.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +107,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link" style="color: white; padding-left: 15px; padding-right: 15px;">
+              <a href="#" class="nav-link animated" style="color: white; padding-left: 15px; padding-right: 15px;">
                 <i class="ni ni-collection d-lg-none"></i>
                 <span class="nav-link-inner--text">My Account</span>
               </a>
@@ -78,7 +115,7 @@
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item d-none d-lg-block ml-lg-4">
-              <a href="#" target="_blank" class="btn btn-neutral btn-icon" style="background-color: transparent; color: white;">
+              <a href="#" target="_blank" class="btn btn-neutral btn-icon" style="border-color: transparent; background-color: transparent; color: white;">
                 <span class="nav-link-inner--text">Log Out</span>
               </a>
             </li>
@@ -102,46 +139,10 @@
           <span class="span-50"></span>
           <span class="span-100"></span>
         </div>           
-          <div style="height: -webkit-fill-available;">
-
-            <style>
-               .animated {
-                  -webkit-animation-duration: 10s;
-                  animation-duration: 10s;
-                  -webkit-animation-fill-mode: both;
-                  animation-fill-mode: both;
-               }
-               
-               @-webkit-keyframes fadeInDown {
-                  0% {
-                     opacity: 0;
-                     -webkit-transform: translateY(-20px);
-                  }
-                  100% {
-                     opacity: 1;
-                     -webkit-transform: translateY(0);
-                  }
-               }
-               
-               @keyframes fadeInDown {
-                  0% {
-                     opacity: 0;
-                     transform: translateY(-20px);
-                  }
-                  100% {
-                     opacity: 1;
-                     transform: translateY(0);
-                  }
-               }
-               
-               .fadeInDown {
-                  -webkit-animation-name: fadeInDown;
-                  animation-name: fadeInDown;
-               }
-            </style>
+          <div style="height: -webkit-fill-available;">            
 
             <div style="left: 50%; top: 50%; position: absolute; z-index: 100; transform: translate(-50%, -50%);">
-              <h2 class="text-animation" data-js="text" style="font-size: 5rem;">CONNEXUS</h2>
+              <h2 class="text-animation" data-js="text" style="font-size: 4rem;">CONNEXUS</h2>
             </div>
             <div class="contenido">
               <!DOCTYPE html>
